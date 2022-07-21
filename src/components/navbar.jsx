@@ -12,9 +12,10 @@ const NavBar = () => {
         <div className="relative flex h-16 items-center justify-between">
 
          
-<div className='md:pl-0 pl-3'> <Link to="/">
+          <div className='md:pl-0 pl-3'>
+             <Link to="/">
               <h3 className="ml-1 text-xl font-semibold">Weather Checker</h3>
-            </Link></div>
+              </Link></div>
            
 
             <div className="flex flex-1 items-center justify-end items-stretch justify-end md:pr-0 pr-3">

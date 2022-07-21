@@ -7,7 +7,7 @@ const Toggle = () => {
 
   return (
     <div
-    aria-selected={theme}
+    aria-checked={theme === 'dark'}
       role="switch"
       className="rounded-full p-2 transition duration-500 ease-in-out"
     >
